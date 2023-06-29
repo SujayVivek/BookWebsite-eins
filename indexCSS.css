@@ -1,0 +1,117 @@
+body{
+    background-color: #2B3467;margin: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100;200&family=Pathway+Extreme:wght@100&family=Roboto+Condensed:ital@1&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+header nav{
+background-color: #ffffff;
+border: 2px solid black;
+color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+
+}
+header nav a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header nav a:hover{
+background-color: #6627be;
+color:aqua;
+
+}
+header nav img{
+    padding-right: 10px;
+}
+.containerMain .topMainPart{
+    background-image: url(./pics/pexels-engin-akyurt-2943603.jpg);
+    background-size: 100% 100%;
+    
+    opacity: 90%;
+    background-repeat: no-repeat;
+    
+}
+.containerMain .imageMain {
+position:relative;
+left: 100px;
+top: 30px;
+
+}
+.containerMain .imageMain img{
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    
+    border-radius: 50px;
+}
+.containerMain .wave svg{
+    display: block;
+   
+}
+   
+
+.containerMain .wave{
+    position: relative;
+    top:-240px;
+    
+}
+.containerMain .topMainPart{
+    display: flex;
+    align-items: center;
+    
+}
+.containerMain .topMainPart .topMainPartText{
+    position: relative;
+    top:-120px;
+    right:-250px;
+    text-align: center;
+    padding:5px;
+}
+.containerMain .topMainPart .topMainPartText .text1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color:azure;
+    
+}
+.containerMain .topMainPart .topMainPartText .text1 span{
+    color: red;
+}
+.containerMain .topMainPart .topMainPartText .text2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 5, 5);
+    
+}
+
+.containerMain .topMainPart .topMainPartText .text2 span{
+        color: rgb(255, 255, 255);
+        font-size: 70px;;
+    }
+.containerMain .topMainPart .topMainPartText .text3{
+    font-family: 'Bebas Neue', sans-serif;
+    width:100%;
+    font-weight: 600;
+    opacity: 75%;
+    text-align: center;
+}
+.containerMain .topMainPart .topMainPartText .text3 .text4{
+    width:500px;
+    opacity: 65%;
+    
+}
+.containerMain .topMainPart .topMainPartText button{
+    background-color: black;
+    color: white;
+    
+    padding:15px;
+    border-radius: 20px;
+    position: relative;
+    top:30px;   
+    width:300px;
+    font-size: 20px;;
+}
