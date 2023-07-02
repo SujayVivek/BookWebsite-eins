@@ -113,5 +113,67 @@ top: 30px;
     position: relative;
     top:30px;   
     width:300px;
-    font-size: 20px;;
+    font-size: 20px;
+    
+}
+.best3seller .best3sellerTitle{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
+.best3seller .design .cards3{
+    display: flex;
+    justify-content: center;
+    
+    
+   
+    margin:5px;
+
+
+}
+.best3seller .design .cards3 .card{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:2px solid black;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width:27%;
+    
+
+}
+.best3seller .design .cards3 .card .Bookmain{
+    font-weight: 500;
+    font-size: larger;
+    background-color: #2b3467a6;
+    display: block;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;;
+}
+.best3seller .design .cards3 .card .author{
+    position: relative;
+    display: block;
+    left:80px;
+    text-align: center;
+    right:20px;
+    opacity: 60%;
+}
+.best3seller .design .cards3 .card .Bookmain:hover{
+    color:white;
+    background-color: black;
+}
+.best3seller .design .cards3 .card .ratings{
+    width:80%;
+}
+.best3seller .design .cards3 .card .heightAlign{
+    height:300px;
+}
+.best3seller .design .cards3 .card p{
+    margin:6px;padding:10px;
+    opacity: 95%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
