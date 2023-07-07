@@ -177,3 +177,140 @@ top: 30px;
     opacity: 95%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.best9seller .best9sellerTitle{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.best9seller .cards9{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:-30px;
+    text-align: center;
+    padding:100px;
+    padding-left: 150px;;
+    
+   
+    margin:5px;
+
+
+}
+.best9seller .cards9 .card{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border:2px solid black;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width:80%;
+    margin-bottom: 30px;;
+    
+
+}
+.best9seller .cards9 .card .Bookmain{
+    font-weight: 500;
+    font-size: larger;
+    background-color: #2b3467a6;
+    display: block;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;;
+}
+.best9seller .cards9 .card .author{
+    position: relative;
+    display: block;
+    left:80px;
+    text-align: center;
+    right:20px;
+    opacity: 60%;
+}
+.best9seller .cards9 .card .Bookmain:hover{
+    color:white;
+    background-color: black;
+}
+.best9seller .cards9 .card .ratings{
+    width:80%;
+}
+.best9seller .cards9 .card .heightAlign{
+    width: 200px;
+}
+
+
+
+
+
+
+.reviews .container1 .reviewBubble1{
+    background-color: white;
+    height: 200px;
+    margin-left: 100px;
+    width:900px;
+    border-radius: 50px;
+   text-align: center;
+   
+    
+}
+.reviews .container1 .reviewBubble1{
+    display: flex;
+    justify-content: left;
+}
+
+.reviews .container1 .reviewBubble1 img{
+    -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+
+position:relative;
+right:70px;
+}
+.reviews .container1 .reviewBubble1 .parah{
+    position: relative; 
+    opacity:75%;
+    top:50px;
+    width: 750px;
+    right: 50px;
+}
+
+
+.reviews .container1 .reviewBubble2{
+    background-color: white;
+    height: 200px;
+    margin-left: 100px;
+    width:900px;
+    border-radius: 50px;
+   text-align: center;
+   position:relative;
+   left:200px;
+   
+    
+}
+.reviews .container1 .reviewBubble2{
+    display: flex;
+    justify-content: right;
+}
+
+.reviews .container1 .reviewBubble2 img{
+    -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+
+position:relative;
+left:70px;
+}
+.reviews .container1 .reviewBubble2 .parah{
+    position: relative; 
+    opacity:75%;
+    top:50px;
+    width: 750px;
+    left: 50px;
+}
+footer{
+    background-color: gray;
+    display: block;
+    height:300px;
+    color:white;
+    
+}
